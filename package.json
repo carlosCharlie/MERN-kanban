@@ -1,0 +1,37 @@
+{
+  "name": "mern-kanban",
+  "version": "1.0.0",
+  "description": "A kanban made with express, react, mongo and node",
+  "main": "server/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosCharlie/MERN-kanban.git"
+  },
+  "keywords": [
+    "kanban",
+    "express",
+    "react",
+    "mongo",
+    "node",
+    "mern"
+  ],
+  "author": "carlosCharlie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosCharlie/MERN-kanban/issues"
+  },
+  "homepage": "https://github.com/carlosCharlie/MERN-kanban#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react-app": "^3.1.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {}
+}

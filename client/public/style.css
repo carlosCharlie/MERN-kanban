@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #A8D1E7;
+    color: #262626;
+    font-family: 'BioRhyme', serif;
+}
+
+h1,h2,h3,input{
+    text-align: center;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #A8D1E7;
+}
+
+.Kanban{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3%;
+}
+
+.State{
+    border:3px solid #262626;
+    border-radius: 10px;
+    min-height: 30vh;
+    padding: 5%;
+    background-color: #F6E9A3;
+    margin: 5%;
+}
+
+.AddState{
+    border:3px dashed #262626;
+    border-radius: 10px;
+    min-height: 30vh;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1;
+    margin: 8%;
+}
+
+.Task{
+    text-align: center;
+    border: 2px #262626 solid;
+    border-radius: 10px;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1;
+    margin-top: 2%;
+}
+
+.Task:hover{
+    cursor: grab;
+}
+
+.AddTask:hover{
+    cursor: pointer;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
