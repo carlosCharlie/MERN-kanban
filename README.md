@@ -16,7 +16,7 @@
     <ul>
       <li><b>index.js:</b> front controller, handles all requests.</li>
       <li><b>logic:</b> Business logic layer. </li>
-      <li><b>integration:</b> Database operations layer and database configuration (MongoDB). </li>
+      <li><b>integration:</b> Database operations layer and configuration (MongoDB). </li>
     </ul>
   </li>
 </ul>
